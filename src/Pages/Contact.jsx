@@ -1,4 +1,5 @@
 import React from "react";
+// import {Form,Button} from 'react-bootstrap/Form'
 
 function Contact() {
   return (
@@ -11,9 +12,9 @@ function Contact() {
             <div class="about-content col-lg-12">
               <h1 class="text-white">Contact Us</h1>
               <p class="text-white link-nav">
-                <a href="index.html">Home </a>{" "}
-                <span class="lnr lnr-arrow-right"></span>{" "}
-                <a href="contact.html"> Contact Us</a>
+                <a href="/">Home </a>
+                <span class="lnr lnr-arrow-right"></span>
+                <a href="/contact"> Contact Us</a>
               </p>
             </div>
           </div>
@@ -54,28 +55,29 @@ function Contact() {
                 </div>
               </div>
             </div>
-            {/* <div class="col-lg-8">
-                  <form class="form-area contact-form text-right" id="myForm" >
+            <div class="col-lg-8">
+                  <form className="form-area contact-form text-right" action="">
                      <div class="row">
                         <div class="col-lg-6 form-group">
                            <input name="name" placeholder="Enter your name"
                               class="common-input mb-20 form-control" required="" type="text"/>
                            <input name="email" placeholder="Enter email address"
-                            required="" type="email"/>
+                            required="" type="email" class="common-input mb-20 form-control"/>
                            <input name="subject" placeholder="Enter subject" class="common-input mb-20 form-control"
                               required="" type="text"/>
                         </div>
                         <div class="col-lg-6 form-group">
                            <textarea class="common-textarea form-control" name="message"
-                              placeholder="Enter Messege" required=""></textarea>
+                              placeholder="Enter Messege" required=""/>
                         </div>
+                        
                         <div class="col-lg-12">
-                           <div class="alert-msg" style="text-align: left;"></div>
-                           <button class="genric-btn primary" style="float: right;">Send Message</button>
+                           <div class="alert-msg"></div>
+                           <button class="btn btn-primary">Send Message</button>
                         </div>
                      </div>
                   </form>
-               </div> */}
+               </div>
           </div>
         </div>
       </section>

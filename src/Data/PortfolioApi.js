@@ -48,4 +48,36 @@ export const portfolio =
         image:"assets/images/projects/Ecommerce.jpeg",
         altname:"Ecommerce",
     },
+
+    {
+        id:7,
+        name:"Meme Maker",
+        category:"Javascript",
+        image:"assets/images/projects/Meme Maker.jpg",
+        altname:"meme maker",
+    },
+
+    {
+        id:8,
+        name:"Quiz App",
+        category:"Javascript",
+        image:"assets/images/projects/Quiz-App.jpg",
+        altname:"quiz app",
+    },
+
+    {
+        id:9,
+        name:"Music Landing Website",
+        category:"WebDesign",
+        image:"assets/images/projects/Music Landing.jpeg",
+        altname:"music landing",
+    },
+
+    {
+        id:10,
+        name:"React Form",
+        category:"Javascript",
+        image:"assets/images/projects/React Form.jpg",
+        altname:"react form",
+    },
 ]
