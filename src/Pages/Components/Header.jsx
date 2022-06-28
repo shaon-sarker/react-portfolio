@@ -8,7 +8,7 @@ function Header() {
             <div class="container main-menu">
                 <div class="row align-items-center justify-content-between d-flex">
                     <div id="logo">
-                    <Link to="/"><img src="assets/images/favicon.ico" alt="logo" title="portfolio website" /></Link>
+                    <a to="/"><img src="assets/images/favicon.ico" alt="logo" title="portfolio website" /></a>
                     </div>
                     <nav id="nav-menu-container">
                     <ul class="nav-menu">

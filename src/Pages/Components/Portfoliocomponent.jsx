@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import { Fade, Zoom } from 'react-reveal';
-import { portfolio } from '../../Data/PortfolioApi';
+import React, { useState } from "react";
+import { Zoom } from "react-reveal";
+import { portfolio } from "../../Data/PortfolioApi";
 
 function Portfoliocomponent() {
-    const [portfolios, setPortfolio] = useState(portfolio);
+  const [portfolios, setPortfolio] = useState(portfolio);
 
-    const filterItem = (category) => {
-      const updateList = portfolio.filter((curElem) => {
-        return curElem.category === category;
-      });
-      setPortfolio(updateList);
-    };
-    return ( 
-        <>
-        {/* Start portfolio-area Area */}
+  const filterItem = (category) => {
+    const updateList = portfolio.filter((curElem) => {
+      return curElem.category === category;
+    });
+    setPortfolio(updateList);
+  };
+  return (
+    <>
+      {/* Start portfolio-area Area */}
       <section class="portfolio-area section-gap" id="portfolio">
         <div class="container">
           <div class="row d-flex justify-content-center">
@@ -66,19 +66,16 @@ function Portfoliocomponent() {
                 return (
                   <div class="single-portfolio col-sm-4 all vector" key={id}>
                     <div class="relative">
-                    <Zoom>
-                      <div class="thumb">
-                      
-                        <div class="overlay overlay-bg"></div>
-                        
-                        <img
-                          class="image img-fluid"
-                          src={image}
-                          alt={altname}
-                        />
-                         
+                      <Zoom>
+                        <div class="thumb">
+                          <div class="overlay overlay-bg"></div>
+                          <img
+                            class="image img-fluid"
+                            src={image}
+                            alt={altname}
+                          />
                         </div>
-                        </Zoom>
+                      </Zoom>
                     </div>
                     <div class="p-inner">
                       <h4>{name}</h4>
@@ -91,8 +88,8 @@ function Portfoliocomponent() {
         </div>
       </section>
       {/* End portfolio-area Area */}
-        </>
-     );
+    </>
+  );
 }
 
 export default Portfoliocomponent;

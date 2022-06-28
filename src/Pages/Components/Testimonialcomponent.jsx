@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
-import { Fade } from 'react-reveal';
-import { testimonialData } from '../../Data/Testimonial';
-
+import React, { useState } from "react";
+import { Fade } from "react-reveal";
+import { testimonialData } from "../../Data/Testimonial";
 
 function Testimonialcomponent() {
-
-    const [testimonials, setTestimonial] = useState(testimonialData);
-    return ( 
-        <>
-           {/* Start testimonial Area */}
+  const [testimonials, setTestimonial] = useState(testimonialData);
+  return (
+    <>
+      {/* Start testimonial Area */}
       <section class="testimonial-area section-gap">
         <div class="container">
           <div class="row d-flex justify-content-center">
@@ -29,16 +27,19 @@ function Testimonialcomponent() {
                   testimonial;
                 return (
                   <Fade right>
-                  <div class="single-testimonial item d-flex flex-row" key={id}>
-                    <div class="thumb">
-                      <img class="img-fluid" src={image} alt={altname} />
+                    <div
+                      class="single-testimonial item d-flex flex-row"
+                      key={id}
+                    >
+                      <div class="thumb">
+                        <img class="img-fluid" src={image} alt={altname} />
+                      </div>
+                      <div class="desc">
+                        <p>{describe}</p>
+                        <h4>{title}</h4>
+                        <p>{heading}</p>
+                      </div>
                     </div>
-                    <div class="desc">
-                      <p>{describe}</p>
-                      <h4>{title}</h4>
-                      <p>{heading}</p>
-                    </div>
-                  </div>
                   </Fade>
                 );
               })}
@@ -47,8 +48,8 @@ function Testimonialcomponent() {
         </div>
       </section>
       {/* End testimonial Area */}
-        </>
-     );
+    </>
+  );
 }
 
 export default Testimonialcomponent;

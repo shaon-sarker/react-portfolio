@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
 function Aboutcomponent() {
-    return ( 
-        <>
-            {/* Start home-about Area */}
+  return (
+    <>
+      {/* Start home-about Area */}
       <section class="home-about-area pt-120">
         <div class="container">
           <div class="row align-items-center justify-content-between">
@@ -17,16 +17,16 @@ function Aboutcomponent() {
               />
             </div>
             <div class="col-lg-5 col-md-6 home-about-right">
-            <Fade right>
-              <h6>About Me</h6>
-              <h1 class="text-uppercase">Personal Details</h1>
-              <p>
-                Here, I focus on a range of items and features that we use in
-                life without giving them a second thought. such as Coca Cola.
-                Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco.
-              </p>
+              <Fade right>
+                <h6>About Me</h6>
+                <h1 class="text-uppercase">Personal Details</h1>
+                <p>
+                  Here, I focus on a range of items and features that we use in
+                  life without giving them a second thought. such as Coca Cola.
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco.
+                </p>
               </Fade>
               <a
                 href="https://pdfhost.io/v/D.2Ar1Usj_shaon_cv.pdf"
@@ -79,8 +79,8 @@ function Aboutcomponent() {
       </section>
       <br />
       {/* End home-about Area */}
-        </>
-     );
+    </>
+  );
 }
 
 export default Aboutcomponent;
