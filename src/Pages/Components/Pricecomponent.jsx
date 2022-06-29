@@ -7,12 +7,12 @@ function Pricecomponent() {
   return (
     <>
       {/* Start price Area */}
-      <section class="price-area section-gap">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-70 col-lg-8">
-              <div class="title text-center">
-                <h1 class="mb-10">Choose Your Plan</h1>
+      <section className="price-area section-gap">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="menu-content pb-70 col-lg-8">
+              <div className="title text-center">
+                <h1 className="mb-10">Choose Your Plan</h1>
                 <p>
                   When someone does something that they know that they shouldn’t
                   do, did they.
@@ -20,7 +20,7 @@ function Pricecomponent() {
               </div>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             {pricelists.map((pricelist) => {
               const {
                 id,
@@ -33,24 +33,24 @@ function Pricecomponent() {
                 bottomheading,
               } = pricelist;
               return (
-                <div class="col-lg-4 col-md-8 single-price">
+                <div className="col-lg-4 col-md-8 single-price">
                   <Zoom>
-                    <div class="top-part">
-                      <h1 class="package-no">{topheading}</h1>
+                    <div className="top-part">
+                      <h1 className="package-no">{topheading}</h1>
                       <h4>{heading}</h4>
-                      <p class="mt-10">{describe}</p>
+                      <p className="mt-10">{describe}</p>
                     </div>
                   </Zoom>
-                  <div class="package-list">
+                  <div className="package-list">
                     <ul>
                       <li>{listone}</li>
                       <li>{listtwo}</li>
                       <li>{listthree}</li>
                     </ul>
                   </div>
-                  <div class="bottom-part">
+                  <div className="bottom-part">
                     <h1>${bottomheading}</h1>
-                    <a class="price-btn text-uppercase" href="#">
+                    <a className="price-btn text-uppercase" href="#">
                       Buy Now
                     </a>
                   </div>

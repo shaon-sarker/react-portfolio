@@ -14,12 +14,12 @@ function Portfoliocomponent() {
   return (
     <>
       {/* Start portfolio-area Area */}
-      <section class="portfolio-area section-gap" id="portfolio">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-70 col-lg-8">
-              <div class="title text-center">
-                <h1 class="mb-10">Our Latest Featured Projects</h1>
+      <section className="portfolio-area section-gap" id="portfolio">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="menu-content pb-70 col-lg-8">
+              <div className="title text-center">
+                <h1 className="mb-10">Our Latest Featured Projects</h1>
                 <p>
                   Here are some demos, click on the{" "}
                   <a href="https://github.com/shaon-sarker">
@@ -30,10 +30,10 @@ function Portfoliocomponent() {
               </div>
             </div>
           </div>
-          <div class="filters">
+          <div className="filters">
             <ul>
               <li
-                class="active"
+                className="active"
                 data-filter="*"
                 onClick={() => setPortfolio(portfolio)}
               >
@@ -59,16 +59,16 @@ function Portfoliocomponent() {
               </li>
             </ul>
           </div>
-          <div class="filters-content">
-            <div class="row">
+          <div className="filters-content">
+            <div className="row">
               {portfolios.map((port) => {
                 const { id, name, category, image, altname } = port;
                 return (
-                  <div class="single-portfolio col-sm-4 all vector" key={id}>
-                    <div class="relative">
+                  <div className="single-portfolio col-sm-4 all vector" key={id}>
+                    <div className="relative">
                       <Zoom>
-                        <div class="thumb">
-                          <div class="overlay overlay-bg"></div>
+                        <div className="thumb">
+                          <div className="overlay overlay-bg"></div>
                           <img
                             class="image img-fluid"
                             src={image}
@@ -77,7 +77,7 @@ function Portfoliocomponent() {
                         </div>
                       </Zoom>
                     </div>
-                    <div class="p-inner">
+                    <div className="p-inner">
                       <h4>{name}</h4>
                     </div>
                   </div>

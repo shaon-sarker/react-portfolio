@@ -6,20 +6,20 @@ function Aboutcomponent() {
   return (
     <>
       {/* Start home-about Area */}
-      <section class="home-about-area pt-120">
-        <div class="container">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 col-md-6 home-about-left">
+      <section className="home-about-area pt-120">
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-lg-6 col-md-6 home-about-left">
               <img
-                class="img-fluid"
+                className="img-fluid"
                 src="assets/images/about/portfolio.svg"
                 alt=""
               />
             </div>
-            <div class="col-lg-5 col-md-6 home-about-right">
+            <div className="col-lg-5 col-md-6 home-about-right">
               <Fade right>
                 <h6>About Me</h6>
-                <h1 class="text-uppercase">Personal Details</h1>
+                <h1 className="text-uppercase">Personal Details</h1>
                 <p>
                   Here, I focus on a range of items and features that we use in
                   life without giving them a second thought. such as Coca Cola.
@@ -37,39 +37,39 @@ function Aboutcomponent() {
               </a>
             </div>
           </div>
-          <div class="row skillbar-wraps">
-            <div class="col-lg-6 skill-left">
-              <div class="single-skill">
+          <div className="row skillbar-wraps">
+            <div className="col-lg-6 skill-left">
+              <div className="single-skill">
                 <p>HTML5 85%</p>
                 <ProgressBar animated now={85} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>CSS3 90%</p>
                 <ProgressBar animated now={90} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>BOOTSTRAP 80%</p>
                 <ProgressBar animated now={80} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>PHP 90%</p>
                 <ProgressBar animated now={90} />
               </div>
             </div>
-            <div class="col-lg-6 skill-right">
-              <div class="single-skill">
+            <div className="col-lg-6 skill-right">
+              <div className="single-skill">
                 <p>VS CODE 95%</p>
                 <ProgressBar animated now={95} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>JAVASCRIPT 50%</p>
                 <ProgressBar animated now={50} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>JQUERY 85%</p>
                 <ProgressBar animated now={85} />
               </div>
-              <div class="single-skill">
+              <div className="single-skill">
                 <p>SQL/MYSQL 80%</p>
                 <ProgressBar animated now={80} />
               </div>
