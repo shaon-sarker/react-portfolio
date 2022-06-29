@@ -47,25 +47,25 @@ function Servicecomponent() {
           <div class="row">
             <div class="col-lg-3 col-md-6 single-fact">
               <h1>
-                <CountUp end={20} duration={2} />
+                <CountUp end={20} duration={5} />
               </h1>
               <p>Projects Completed</p>
             </div>
             <div class="col-lg-3 col-md-6 single-fact">
               <h1>
-                <CountUp end={20} duration={2} />
+                <CountUp end={20} duration={5} />
               </h1>
               <p>Happy Clients</p>
             </div>
             <div class="col-lg-3 col-md-6 single-fact">
               <h1>
-                <CountUp end={223} duration={2} />
+                <CountUp end={223} duration={5} />
               </h1>
               <p>Cups of Coffee</p>
             </div>
             <div class="col-lg-3 col-md-6 single-fact">
               <h1>
-                <CountUp end={10} duration={2} />
+                <CountUp end={10} duration={5} />
               </h1>
               <p>Real Professionals</p>
             </div>
