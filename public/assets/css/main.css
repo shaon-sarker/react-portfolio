@@ -2196,7 +2196,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
   top: 22px;
   border: 0;
-  background: none;
+  background: black;
   font-size: 24px;
   display: none;
   transition: all 0.4s;
@@ -2486,7 +2486,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767px) {
   .banner-right {
-    width: 100%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: block;
