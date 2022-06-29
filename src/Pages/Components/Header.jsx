@@ -34,23 +34,20 @@ function Header() {
                 </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav nav-menu">
+                    <li><Link to={'/'}>Home</Link></li>
                     <li>
-                    <Link class="nav-link active" aria-current="page" to={'/'}>Home</Link>
+                    <Link to={'/about'}>About</Link></li>
+                    <li>
+                    <Link to={'/service'}>Services</Link>
                     </li>
                     <li>
-                    <Link class="nav-link" to={'/about'}>About</Link>
+                    <Link to={'/portfolio'}>Portfolio</Link>
                     </li>
                     <li>
-                    <Link class="nav-link" to={'/service'}>Services</Link>
+                    <Link to={'/pricing'}>Pricing</Link>
                     </li>
                     <li>
-                    <Link class="nav-link" to={'/portfolio'}>Portfolio</Link>
-                    </li>
-                    <li>
-                    <Link class="nav-link" to={'/pricing'}>Pricing</Link>
-                    </li>
-                    <li>
-                    <Link class="nav-link" to={'/contact'}>Contact</Link>
+                    <Link to={'/contact'}>Contact</Link>
                     </li>
                 </ul>
             </div>
